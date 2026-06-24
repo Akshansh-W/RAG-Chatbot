@@ -1,0 +1,17 @@
+[project]
+name = "rag"
+version = "0.1.0"
+description = "Add your description here"
+readme = "README.md"
+requires-python = ">=3.11"
+dependencies = [
+    "faiss-cpu",
+    "fastapi",
+    "langchain-community",
+    "langchain-google-genai",
+    "langchain-text-splitters",
+    "pypdf",
+    "python-multipart",
+    "python-dotenv",
+    "uvicorn",
+]
